@@ -25,7 +25,7 @@ cache:
   - $HOME/.gradle/wrapper/
 
 install:
-- gradle wrapper --gradle-version 4.4
+- gradle wrapper --gradle-version 4.10.2
 
 addons:
   sonarcloud:
