@@ -28,3 +28,7 @@ cache:
 
 install:
   - gradle wrapper --gradle-version 4.10
+
+script:
+  - ./gradlew assemble
+  - ./gradlew check
